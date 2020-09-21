@@ -31,8 +31,8 @@ public class Cadastro extends Pessoa {
 		System.out.println("Estado: ");
 		pessoa.setEstado(kb.nextLine());
 		System.out.println("-------------Ficha de Cadastro---------------");
-		System.out.printf("Nome: " + pessoa.getNome() + "\n" + pessoa.getEmail() + "\n" + pessoa.getCpf() + "\n"
-				+ pessoa.getCnpj() + "\n" + pessoa.getTel() + "\n" + pessoa.getCep() + "\n" + pessoa.getLog() + "\n"
-				+ pessoa.getNum() + "\n" + pessoa.getBairro() + "\n" + pessoa.getCidade() + "\n" + pessoa.getEstado());
+		System.out.printf("Nome: " + pessoa.getNome() + "\n" + "E-mail: "+pessoa.getEmail() + "\n" +"CPF: "+ pessoa.getCpf() + "\n"
+				+ "CNPJ: "+pessoa.getCnpj() + "\n" +"Telefone: "+pessoa.getTel() + "\n" + "CEP: "+pessoa.getCep() + "\n" + "Logradouro"+pessoa.getLog() + "\n"
+				+ "Número: "+pessoa.getNum() + "\n" + "Bairro: "+pessoa.getBairro() + "\n" + "Cidade: "+pessoa.getCidade() + "\n" + "Estado: "+pessoa.getEstado());
 	}
 }
